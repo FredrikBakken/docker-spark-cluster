@@ -12,7 +12,7 @@ def init_spark():
 
 
 def main():
-    url = "jdbc:postgresql://postgres-spark:5432/mta_db"
+    url = "jdbc:postgresql://postgres:5432/mta_db"
     properties = {
         "user": "postgres",
         "password": "postgres",
