@@ -37,7 +37,7 @@ docker exec -it spark-master bash
     --class org.apache.spark.examples.SparkPi \
     --driver-memory 1G \
     --executor-memory 1G \
-    /opt/spark/examples/jars/spark-examples_2.12-3.4.0.jar 1000
+    /opt/spark/examples/jars/spark-examples_2.12-3.1.2.jar 1000
 ```
 
 ## Cleanup
